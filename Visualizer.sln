@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Visualizer", "Visualizer.vcxproj", "{77F5DAA5-B767-44EB-AEFA-35E444C84747}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Geometry", "..\..\Shweta_Workplace\Visualizer\Geometry\Geometry.vcxproj", "{6B5EC252-D776-4E45-A650-AAAC3F06996E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77F5DAA5-B767-44EB-AEFA-35E444C84747}.Debug|x64.ActiveCfg = Debug|x64
+		{77F5DAA5-B767-44EB-AEFA-35E444C84747}.Debug|x64.Build.0 = Debug|x64
+		{77F5DAA5-B767-44EB-AEFA-35E444C84747}.Debug|x86.ActiveCfg = Debug|x64
+		{77F5DAA5-B767-44EB-AEFA-35E444C84747}.Debug|x86.Build.0 = Debug|x64
+		{77F5DAA5-B767-44EB-AEFA-35E444C84747}.Release|x64.ActiveCfg = Release|x64
+		{77F5DAA5-B767-44EB-AEFA-35E444C84747}.Release|x64.Build.0 = Release|x64
+		{77F5DAA5-B767-44EB-AEFA-35E444C84747}.Release|x86.ActiveCfg = Release|x64
+		{77F5DAA5-B767-44EB-AEFA-35E444C84747}.Release|x86.Build.0 = Release|x64
+		{6B5EC252-D776-4E45-A650-AAAC3F06996E}.Debug|x64.ActiveCfg = Debug|x64
+		{6B5EC252-D776-4E45-A650-AAAC3F06996E}.Debug|x64.Build.0 = Debug|x64
+		{6B5EC252-D776-4E45-A650-AAAC3F06996E}.Debug|x86.ActiveCfg = Debug|Win32
+		{6B5EC252-D776-4E45-A650-AAAC3F06996E}.Debug|x86.Build.0 = Debug|Win32
+		{6B5EC252-D776-4E45-A650-AAAC3F06996E}.Release|x64.ActiveCfg = Release|x64
+		{6B5EC252-D776-4E45-A650-AAAC3F06996E}.Release|x64.Build.0 = Release|x64
+		{6B5EC252-D776-4E45-A650-AAAC3F06996E}.Release|x86.ActiveCfg = Release|Win32
+		{6B5EC252-D776-4E45-A650-AAAC3F06996E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AE6FFD8-73AE-481A-8E49-831E8D00FC4A}
+	EndGlobalSection
+EndGlobal
