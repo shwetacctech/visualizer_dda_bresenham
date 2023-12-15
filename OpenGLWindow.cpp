@@ -1,4 +1,4 @@
-/**#include "stdafx.h"
+#include "stdafx.h"
 #include "OpenGLWindow.h"
 #include <QOpenGLContext>
 #include <QOpenGLPaintDevice>
