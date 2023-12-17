@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  dllmain.cpp
+  Geometry.cpp
+  Line.cpp
+  Point3D.cpp
+  Generating Code...
+     Creating library D:\Visualizer1\Visualizer\x64\Debug\Geometry.lib and object D:\Visualizer1\Visualizer\x64\Debug\Geometry.exp
+  Geometry.vcxproj -> D:\Visualizer1\Visualizer\x64\Debug\Geometry.dll
