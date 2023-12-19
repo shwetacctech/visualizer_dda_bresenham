@@ -1,2 +1,3 @@
 
-![image](https://github.com/shwetacctech/visualizer_dda_bresenham/assets/149310316/8e5c282c-9a52-457a-92ad-4bf91a32d023)
+
+![image](https://github.com/shwetacctech/visualizer_dda_bresenham/assets/149310316/36c61cc7-6dfd-4084-9517-ebdd993e71a5)
