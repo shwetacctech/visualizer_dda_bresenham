@@ -3,18 +3,23 @@
 
 class GEOMETRY_API Point3D
 {
-public:
-    Point3D(double inX, double inY);
-    ~Point3D();
-
-    double x();
-    double y();
-
-    void setX(double x);
-    void setY(double y);
-
 private:
-    double mX;
-    double mY;
+    double x, y, z;
+
+public:
+    // Constructors
+    Point3D();
+    Point3D(double x_coord, double y_coord, double z_coord);
+
+    // Getter methods
+    double getX() const;
+    double getY() const;
+    double getZ() const;
+
+    // Setter methods
+    void setX(double x_coord);
+    void setY(double y_coord);
+    void setZ(double z_coord);
 
 };
+

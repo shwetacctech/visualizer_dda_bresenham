@@ -5,7 +5,6 @@
 #include "framework.h"
 #include "Geometry.h"
 
-
 // This is an example of an exported variable
 GEOMETRY_API int nGeometry=0;
 

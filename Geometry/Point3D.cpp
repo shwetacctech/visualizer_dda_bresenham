@@ -1,34 +1,34 @@
 #include "pch.h"
 #include "Point3D.h"
-Point3D::Point3D(double inX, double inY)
-    : mX(0),
-    mY(0)
-{
-    mX = inX;
-    mY = inY;
+#include <iostream>
+
+// Constructors
+Point3D::Point3D() : x(0.0), y(0.0), z(0.0) {}
+
+Point3D::Point3D(double x_coord, double y_coord, double z_coord) : x(x_coord), y(y_coord), z(z_coord) {}
+
+// Getter methods
+double Point3D::getX() const {
+    return x;
 }
 
-Point3D::~Point3D()
-{
+double Point3D::getY() const {
+    return y;
 }
 
-double Point3D::x()
-{
-    return mX;
+double Point3D::getZ() const {
+    return z;
 }
 
-double Point3D::y()
-{
-    return mY;
+// Setter methods
+void Point3D::setX(double x_coord) {
+    x = x_coord;
 }
 
-
-void Point3D::setX(double x)
-{
-    mX = x;
+void Point3D::setY(double y_coord) {
+    y = y_coord;
 }
 
-void Point3D::setY(double y)
-{
-    mY = y;
+void Point3D::setZ(double z_coord) {
+    z = z_coord;
 }

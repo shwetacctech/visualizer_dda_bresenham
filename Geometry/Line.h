@@ -2,6 +2,7 @@
 #include "Point3D.h"
 #include "pch.h"
 
+
 class GEOMETRY_API Line
 {
 public:
