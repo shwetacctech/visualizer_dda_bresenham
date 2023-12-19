@@ -1,15 +1,19 @@
 #pragma once
-#pragma once
+#include "pch.h"
 #include "Line.h"
-#include <QVector2D.h>
-class SimpleDDA
+#include <vector>
+
+
+using namespace std;
+
+class SIMPLEDDA_API SimpleDDA
 {
 public:
-	SimpleDDA();
-	~SimpleDDA();	
+	SimpleDDA(Line& line, vector<float>& mVertices, vector<float>& colors);
+	~SimpleDDA();
 
 public:
-	void drawLineBySimpleDDA(Line& line, QVector<QVector2D>& pixelVertices);
-
+	void drawGrid(vector<float>& vertices, vector<float>& colors);
+	void drawLineBySimpleDDA(Line& line, vector<float>& mVertices);
 
 };
