@@ -48,3 +48,4 @@ The repository includes the following files:
 
 - The `SimpleDDA` class might depend on other libraries or components specified in the project.
 
+![image](https://github.com/shwetacctech/visualizer_dda_bresenham/assets/149310316/07222d4c-ff23-497b-812e-23b3afbe86d6)
